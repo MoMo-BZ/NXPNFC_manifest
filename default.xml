@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="NXPNFCProject"
+           fetch="https://github.com/NXPNFCProject/"
+           review="https://github.com/NXPNFCProject/" />
+
+  <default revision="refs/tags/NFC_AR_00_1E800_13.09.00_OpnSrc"
+           remote="NXPNFCProject"
+           sync-j="4" />
+
+  <!-- NXPNFCProject -->
+  <project path="NXPNFC_Reference" name="NXPNFC_Reference" />
+  <project path="NXPNFC_I2CDriver" name="NXPNFC_I2CDriver" />
+  <project path="NXPESE_SPIDriver" name="NXPESE_SPIDriver" />
+  
+  <project path="NFC_NCIHAL_Nfc" name="NFC_NCIHAL_Nfc" />
+  <project path="NFC_NCIHAL_libnfc-nci" name="NFC_NCIHAL_libnfc-nci" />
+  <project path="nfcandroid_nfc_hidlimpl" name="nfcandroid_nfc_hidlimpl" />
+
+  <project path="NFC_NCIHAL_base" name="NFC_NCIHAL_base" />
+  <project path="nfcandroid_frameworks" name="nfcandroid_frameworks" />
+
+  <project path="nfcandroid_se_hidlimpl" name="nfcandroid_se_hidlimpl" />
+  <project path="nfcandroid_secureelement" name="nfcandroid_secureelement" />
+  <project path="nfcandroid_nxp_ese_clients" name="nfcandroid_nxp_ese_clients"/>
+
+  <!-- <project path="nfcandroid_hidlintf_se" name="nfcandroid_hidlintf_se" />
+  <project path="nfcandroid_hidlintf_nfc" name="nfcandroid_hidlintf_nfc" /> -->
+
+  <project path="NFC_NCIHAL_docs" name="NFC_NCIHAL_docs" />
+  
+  <project path="nfcandroid_weaver_hidlimpl" name="nfcandroid_weaver_hidlimpl" />
+  <project path="nfcandroid_keymint_hidlimpl" name="nfcandroid_keymint_hidlimpl" />
+  <project path="nfcandroid_keymaster_hidlimpl" name="nfcandroid_keymaster_hidlimpl" />
+
+  <!--DTA-->
+  <project path="NXPAndroidDTA" name="NXPAndroidDTA" revision="refs/tags/NFC_DTA_v13.00_OpnSrc"/>
+
+</manifest>
